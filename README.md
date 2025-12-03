@@ -106,7 +106,7 @@ Initially, Logstash was used to process and forward logs to Elasticsearch. Howev
 
 By removing Logstash, the architecture is now simpler and more direct, with the backend directly interacting with Elasticsearch.
 
-🔥 What Does This Project Help With?
+# 🔥 What Does This Project Help With?
 1. Real-Time Monitoring and Debugging
 
 This system provides a real-time log aggregation and analysis platform that:
@@ -163,10 +163,8 @@ Alerting: Set up email or Slack notifications for when certain thresholds (like 
 
 Queueing: Implement a message queue (like Kafka or RabbitMQ) for handling logs at a higher scale.
 
+Authentication: Add authentication to the backend to protect log data.
+
 <img width="1809" height="1006" alt="image" src="https://github.com/user-attachments/assets/3dd63d0b-3223-401a-aacf-b62baa2c8bbf" />
 
 <img width="1809" height="1006" alt="image" src="https://github.com/user-attachments/assets/f4e68cc7-1dcf-4bd1-8b92-11be0ad82972" />
-
-
-
-Authentication: Add authentication to the backend to protect log data.
